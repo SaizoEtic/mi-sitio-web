@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herobrine</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <img src="herobrine.gif" alt="Herobrine">
+    <p id="lore"></p>
+    <script>
+        // Texto de lore
+        const loreText = "Herobrine es una figura mítica en el universo de Minecraft, conocida por su presencia inquietante y sus misteriosos eventos. A menudo se le describe como un ser con la apariencia de Steve, pero con ojos blancos brillantes. Se cree que Herobrine tiene el poder de manipular el mundo del juego y crear fenómenos inexplicables.";
+
+        // Asignar texto al elemento
+        document.getElementById('lore').textContent = loreText;
+    </script>
+</body>
+</html>
